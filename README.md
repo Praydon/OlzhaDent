@@ -16,6 +16,16 @@ npm run build
 npm run preview
 ```
 
+## Деплой на Netlify
+
+Репозиторий уже готов к подключению в Netlify.
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+- Node version: `20`
+
+Если подключаешь проект через GitHub, Netlify обычно подхватывает эти настройки автоматически из [`netlify.toml`](/Users/ruslanzlobin/Desktop/Olza%20Dent/netlify.toml).
+
 ## Где менять данные клиники
 
 - Основные контакты, адрес, WhatsApp, Instagram, рейтинг и ссылки находятся в [`src/App.jsx`](/Users/ruslanzlobin/Desktop/Olza%20Dent/src/App.jsx) в объекте `clinic`.
